@@ -1,0 +1,31 @@
+/* Formulario Competidor */
+
+.formCompetidor{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formCompetidor form{
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+}
+
+.formCompetidor select, input{
+    margin: 5px 0px 5px 0px;
+}
+
+.btnSubmit{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(61, 61, 61, 0.425);
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    cursor:pointer;
+}
+
+/* // - Formulario Competidor */

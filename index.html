@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competición Programación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formCompetidor">
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <label for="estilo">Estilo</label>
+        <select name="estilo" id="estilo" required>
+            <option value="pecho">Pecho</option>
+            <option value="crol">Crol</option>
+            <option value="espalda">Espalda</option>
+            <option value="mariposa">Mariposa</option>
+        </select>
+
+        <label for="distancia">Distancia</label>
+        <select name="distancia" id="distancia" required>
+            <option value="25">25 metros</option>
+            <option value="50">50 metros</option>
+            <option value="100">100 metros</option>
+        </select>
+        <div class="btnSubmit" id="botonSubmit">
+            <input type="submit" id="enviar" hidden>Enviar
+        </div>
+    </div>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
